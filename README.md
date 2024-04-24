@@ -18,9 +18,10 @@
 # Are you fed up with developing a hundred lines of SQL scripts to keep your database updated/synced with your application? 
 # Here is the solution!
 
-## EasyDbMigrator is a database migration library designed for Delphi. It simplifies database evolution and is available in both 32-Bit and 64-Bit versions.
-## Migrations are structured objects designed to alter your database schema. They provide an alternative to creating numerous SQL scripts that would require manual execution by every developer involved.
-When dealing with multiple databases, such as the developer's local database, test database, and production database, migrations are a helpful solution for evolving a database schema. These changes to the schema are recorded in Delphi classes, which can then be committed to a version control system.
+## * EasyDbMigrator is a database migration library designed for Delphi. 
+## * It simplifies database evolution and is available in both 32-bit and 64-bit versions. (more or less similar to FluentMigrator in C#, DbUp in C#, Liquibase in Java, or ActiveRecord Migrations in Ruby).
+## * Migrations are structured objects designed to alter your database schema. They provide an alternative to creating numerous SQL scripts that would require manual execution by every developer involved.
+## * When dealing with multiple databases, such as the developer's local database, test database, and production database, migrations are a helpful solution for evolving a database schema. These changes to the schema are recorded in Delphi classes, which can then be committed to a version control system.
 
 # Covered databases and available examples:
 
@@ -40,18 +41,15 @@ Delphi XE6
 Delphi XE7
 Delphi XE8
 Delphi 10 Seattle
-Delphi 10.1 Berlin
-Delphi 10.2 Tokyo
-Delphi 10.3 Rio
-Delphi 10.4 Sydney
-Delphi 11.0 Alexandria
-Delphi 12 Athens
+Delphi 10.x (10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney)
+Delphi 11.x Alexandria
+Delphi 12.x Athens
 ```
 # [Available on Getit Package Manager-ClickMe!](https://getitnow.embarcadero.com/EasyDBMigrator)
 ![image](https://github.com/AliDehbansiahkarbon/EasyDBMigrator/assets/5601608/b693452d-19cc-4755-988f-3a22d071ed58)
 
 
-# How it works?
+# How does it work?
 To use the library, simply incorporate the units into your projects, implement migrations, and execute the migrator. It's that simple.
 
 ## (If you want to see some demo videos, please visit [here](https://www.youtube.com/playlist?list=PLsToBC7EKBNSkD-mwMN18TQbJ-lzistS7) or click on the below image👇👇)
@@ -2211,7 +2209,7 @@ Good luck!
 
 <hr>
 <p align="center">
-<img src="https://dtffvb2501i0o.cloudfront.net/images/logos/delphi-logo-128.webp" alt="Delphi">
+<img src="https://i0.wp.com/blogs.embarcadero.com/wp-content/uploads/2022/11/dlogonew-5582740.png?resize=254%2C242&ssl=1" alt="Delphi">
 </p>
 <h5 align="center">
 Made with :heart: on Delphi
